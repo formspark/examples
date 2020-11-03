@@ -1,5 +1,4 @@
 .cache
 .idea
 dist
-gatsby/public
 node_modules
