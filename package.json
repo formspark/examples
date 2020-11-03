@@ -1,0 +1,11 @@
+{
+  "name": "@formspark/examples",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|css|scss|json|md|yml)\""
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
