@@ -1,7 +1,7 @@
 {
   "scripts": {
+    "build": "parcel index.jsx",
     "dev": "parcel index.html",
-    "build": "parcel index.jsx"
   },
   "browserslist": [
     "last 1 Chrome versions"
