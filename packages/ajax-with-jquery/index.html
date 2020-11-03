@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formspark | AJAX with jQuery</title>
+    <script src="https://unpkg.com/jquery/dist/jquery.js"></script>
+  </head>
+  <body>
+    <script>
+      $.post(
+        "https://submit-form.com/your-form-id",
+        {
+          message: "Hello, World",
+        },
+        null,
+        "json" // dataType must be set to json
+      )
+        .then(function (response) {
+          console.log(response);
+        })
+        .catch(function (response) {
+          console.error(response);
+        });
+    </script>
+  </body>
+</html>
