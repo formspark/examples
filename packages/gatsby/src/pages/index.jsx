@@ -1,3 +1,12 @@
-export default function Home() {
-  return <h1>Hello Gatsby!</h1>;
+import React from "react";
+
+const FORMSPARK_ACTION_URL = "https://submit-form.com/your-form-id";
+
+export default function HomePage() {
+  return (
+    <form method="POST" action={FORMSPARK_ACTION_URL}>
+      <textarea name="message" placeholder="Message" />
+      <button type="submit">Send</button>
+    </form>
+  );
 }
