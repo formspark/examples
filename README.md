@@ -7,4 +7,5 @@
 - [AJAX with Javascript XHR](/packages/ajax-with-javascript-xhr)
 - [AJAX with jQuery](/packages/ajax-with-jquery)
 - [Gatsby](/packages/gatsby)
+- [Next.js with Fetch](/packages/nextjs-with-fetch)
 - [React with Fetch](/packages/react-with-fetch)
