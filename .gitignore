@@ -1,4 +1,7 @@
 .cache
 .idea
+.next
+.nuxt
 dist
 node_modules
+public
