@@ -8,6 +8,8 @@
 - [AJAX with jQuery](/packages/ajax-with-jquery)
 - [Gatsby](/packages/gatsby)
 - [Next.js with Fetch](/packages/nextjs-with-fetch)
+- [Next.js with use-formspark](/packages/nextjs-with-use-formspark)
 - [Nuxt.js with Fetch](/packages/nuxtjs-with-fetch)
 - [React with Fetch](/packages/react-with-fetch)
+- [React with use-formspark](/packages/react-with-use-formspark)
 - [Webflow](/packages/webflow)

@@ -24,12 +24,7 @@ const Application = () => {
 
   return (
     <form onSubmit={onSubmit}>
-      <textarea
-        name="message"
-        placeholder="Message"
-        value={message}
-        onChange={(e) => setMessage(e.target.value)}
-      />
+      <textarea value={message} onChange={(e) => setMessage(e.target.value)} />
       <button type="submit">Send</button>
     </form>
   );
