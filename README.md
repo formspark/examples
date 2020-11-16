@@ -12,4 +12,5 @@
 - [Nuxt.js with Fetch](/packages/nuxtjs-with-fetch)
 - [React with Fetch](/packages/react-with-fetch)
 - [React with use-formspark](/packages/react-with-use-formspark)
+- [Vue with Fetch](/packages/vue-with-fetch)
 - [Webflow](/packages/webflow)
