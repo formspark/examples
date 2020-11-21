@@ -1,0 +1,4 @@
+title = "Formspark | Hugo"
+
+[params]
+formspark_form_id = "your-form-id"
