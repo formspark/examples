@@ -3,6 +3,7 @@
 .jekyll-cache
 .next
 .nuxt
+.temp
 dist
 node_modules
 packages/jekyll/_site
