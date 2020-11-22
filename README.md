@@ -7,6 +7,7 @@
 - [AJAX with Javascript XHR](/packages/ajax-with-javascript-xhr)
 - [AJAX with jQuery](/packages/ajax-with-jquery)
 - [Gatsby](/packages/gatsby)
+- [Gridsome](/packages/gridsome)
 - [Hugo](/packages/hugo)
 - [Jekyll](/packages/jekyll)
 - [Next.js with Fetch](/packages/nextjs-with-fetch)

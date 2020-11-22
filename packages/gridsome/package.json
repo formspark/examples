@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "gridsome develop",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  }
+}
