@@ -1,0 +1,3 @@
+title: Formspark | Jekyll
+formspark_form_id: your-form-id
+exclude: [docker-compose.yml]
