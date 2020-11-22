@@ -1,7 +1,9 @@
 .cache
 .idea
+.jekyll-cache
 .next
 .nuxt
 dist
 node_modules
+packages/jekyll/_site
 public
