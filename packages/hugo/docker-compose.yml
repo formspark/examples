@@ -1,7 +1,10 @@
-server:
-  image: klakegg/hugo:latest
-  command: server
-  volumes:
-    - ".:/src"
-  ports:
-    - "1313:1313"
+version: "2"
+
+services:
+  hugo:
+    image: klakegg/hugo:latest
+    command: server
+    ports:
+      - "1313:1313"
+    volumes:
+      - ".:/src"
