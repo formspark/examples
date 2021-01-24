@@ -6,6 +6,6 @@
     "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|html|css|scss|json|md|yml)\""
   },
   "devDependencies": {
-    "prettier": "^2.1.2"
+    "prettier": "^2.2.1"
   }
 }
