@@ -5,7 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@formspark/use-formspark": "^0.1.17",
+    "@formspark/use-formspark": "^0.1.20",
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
