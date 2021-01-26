@@ -7,7 +7,7 @@
     "last 1 Chrome versions"
   ],
   "dependencies": {
-    "@formspark/use-formspark": "^0.1.17",
+    "@formspark/use-formspark": "^0.1.20",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
