@@ -16,9 +16,8 @@ function ContactPage() {
       body: JSON.stringify({
         message,
       }),
-    }).then(() => {
-      alert("Form submitted");
     });
+    alert("Form submitted");
   };
 
   return (

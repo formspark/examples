@@ -17,9 +17,8 @@ const Application = () => {
       body: JSON.stringify({
         message,
       }),
-    }).then(() => {
-      alert("Form submitted");
     });
+    alert("Form submitted");
   };
 
   return (

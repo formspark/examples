@@ -7,15 +7,17 @@ function ContactPage() {
   const [submit, submitting] = useFormspark({
     formId: FORMSPARK_FORM_ID,
   });
+
   const [message, setMessage] = useState("");
+
+  const onSubmit = async (e) => {
+    e.preventDefault();
+    await submit({ message });
+    alert("Form submitted");
+  };
+
   return (
-    <form
-      onSubmit={async (e) => {
-        e.preventDefault();
-        await submit({ message });
-        alert("Form submitted");
-      }}
-    >
+    <form onSubmit={onSubmit}>
       <textarea value={message} onChange={(e) => setMessage(e.target.value)} />
       <button type="submit" disabled={submitting}>
         Send
