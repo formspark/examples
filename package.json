@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "format": "prettier --write --ignore-path .gitignore \"**/*.+(js|jsx|ts|tsx|html|css|scss|json|md|yml)\""
+    "execute": "sh scripts/execute.sh",
+    "format": "sh scripts/format.sh"
   },
   "devDependencies": {
     "prettier": "^2.2.1"

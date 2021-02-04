@@ -4,7 +4,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "gatsby": "^2.31.1",
+    "gatsby": "^2.32.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }
