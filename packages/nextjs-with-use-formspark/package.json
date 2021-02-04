@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@formspark/use-formspark": "^0.1.20",
-    "next": "^10.0.5",
+    "next": "^10.0.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

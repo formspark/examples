@@ -2,17 +2,20 @@
 
 set -e
 
+echo Enter a command to execute:
+read -r COMMAND
+
 SECONDS=0
 
-echo "update-dependencies started"
+echo "execute started"
 
 DIRECTORIES=("." "packages/gatsby" "packages/gridsome" "packages/nextjs-with-fetch" "packages/nextjs-with-use-formspark" "packages/nuxtjs-with-fetch" "packages/react-with-fetch" "packages/react-with-use-formspark")
 
 for i in "${DIRECTORIES[@]}"; do
-  echo "Updating node_modules for $i"
-  (cd "$i" && npm update --save)
+  echo "Executing '$COMMAND' in $i"
+  (cd "$i" && eval "$COMMAND")
 done
 
 duration=$SECONDS
 
-echo "update-dependencies finished ($duration seconds)"
+echo "execute finished ($duration seconds)"
