@@ -19,5 +19,6 @@
 - [React with use-formspark](/packages/react-with-use-formspark)
 - [React Native with Fetch](/packages/react-native-with-fetch)
 - [React Native with use-formspark](/packages/react-native-with-use-formspark)
+- [Svelte with Fetch](/packages/svelte-with-fetch)
 - [Vue with Fetch](/packages/vue-with-fetch)
 - [Webflow](/packages/webflow)
