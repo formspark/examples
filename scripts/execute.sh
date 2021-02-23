@@ -9,7 +9,7 @@ SECONDS=0
 
 echo "execute started"
 
-DIRECTORIES=("." "packages/gatsby" "packages/gridsome" "packages/nextjs-with-fetch" "packages/nextjs-with-use-formspark" "packages/nuxtjs-with-fetch" "packages/react-with-fetch" "packages/react-with-use-formspark")
+DIRECTORIES=("." "packages/gatsby" "packages/gridsome" "packages/nextjs-with-fetch" "packages/nextjs-with-use-formspark" "packages/nuxtjs-with-fetch" "packages/react-with-fetch" "packages/react-with-use-formspark" "packages/svelte-with-fetch")
 
 for i in "${DIRECTORIES[@]}"; do
   echo "Executing '$COMMAND' in $i"
