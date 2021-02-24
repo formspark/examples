@@ -11,6 +11,7 @@
 - [Gridsome](/packages/gridsome)
 - [HTML with Botpoison](/packages/html-with-botpoison)
 - [Hugo](/packages/hugo)
+- [Java](/packages/java-with-retrofit)
 - [Jekyll](/packages/jekyll)
 - [Next.js with Fetch](/packages/nextjs-with-fetch)
 - [Next.js with use-formspark](/packages/nextjs-with-use-formspark)
