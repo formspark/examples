@@ -44,7 +44,7 @@ public class FormsparkService {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://submit-form.com/")
-                .client(okHttpClient)Z
+                .client(okHttpClient)
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 

@@ -13,6 +13,7 @@
 - [Hugo](/packages/hugo)
 - [Java](/packages/java-with-retrofit)
 - [Jekyll](/packages/jekyll)
+- [Kotlin](/packages/kotlin-with-retrofit)
 - [Next.js with Fetch](/packages/nextjs-with-fetch)
 - [Next.js with use-formspark](/packages/nextjs-with-use-formspark)
 - [Nuxt.js with Fetch](/packages/nuxtjs-with-fetch)
