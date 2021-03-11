@@ -2,8 +2,12 @@
 
 set -e
 
-echo Enter a command to execute:
-read -r COMMAND
+if [ $# -eq 0 ]; then
+  echo Enter a command to execute:
+  read -r COMMAND
+else
+  COMMAND=$1
+fi
 
 SECONDS=0
 
