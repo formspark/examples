@@ -36,7 +36,7 @@
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
-                "Accept": "application/json",
+                Accept: "application/json",
               },
               body: JSON.stringify(this.data),
             })
@@ -47,7 +47,7 @@
                 alert("Something went wrong");
               })
               .finally(() => {
-                this.data.message = ""
+                this.data.message = "";
                 this.buttonText = "Submit";
                 this.loading = false;
               });

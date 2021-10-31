@@ -28,9 +28,8 @@ export default {
         body: JSON.stringify({
           message: this.message,
         }),
-      }).then(() => {
-        alert("Form submitted");
       });
+      alert("Form submitted");
     },
   },
 };
