@@ -7,6 +7,7 @@
 - [AJAX with Fetch and reCAPTCHA v2](/packages/ajax-with-fetch-and-recaptcha-v2)
 - [AJAX with Javascript XHR](/packages/ajax-with-javascript-xhr)
 - [AJAX with jQuery](/packages/ajax-with-jquery)
+- [Alpine.js with Fetch](/packages/alpinejs-with-fetch)
 - [Gatsby](/packages/gatsby)
 - [Gridsome](/packages/gridsome)
 - [HTML with Botpoison](/packages/html-with-botpoison)
