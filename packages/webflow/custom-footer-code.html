@@ -1,22 +1,27 @@
 <!-- Project Settings > Custom Code > Footer Code -->
+
+<script src="https://unpkg.com/@formspark/formson"></script>
+
 <script type="text/javascript">
   $('form[action^="https://submit-form.com"]').each(function (i, el) {
-    form = $(el);
+    var form = $(el);
     form.submit(function (e) {
       e.preventDefault();
       form = $(e.target);
-      action = form.attr("action");
+      var action = form.attr("action");
+      var data = Formson.toJSON(new FormData(e.target));
       $.ajax({
         url: action,
         method: "POST",
-        data: form.serialize(),
+        data: data,
         dataType: "json",
         success: function () {
-          parent = $(form.parent());
+          var parent = $(form.parent());
           parent.children("form").css("display", "none");
           parent.children(".w-form-done").css("display", "block");
         },
         error: function () {
+          var parent = $(form.parent());
           parent.find(".w-form-fail").css("display", "block");
         },
       });
